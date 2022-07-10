@@ -10,10 +10,10 @@ char buff[3000]; // buffer
 FILE *fp1;
 static int begin = 0;
 
-// Terminal string
+// Tokens
 char* token_values[] = {"WHILE", "DEFAULT", "BREAK", "CASE", "SWITCH", "IN", "AND", "OR", "FOR", "TRUE", "FALSE", "RETURNS", "TAKES","INPUT","PRINT", "USE","WITH","PARAMETERS", "DECLARE", "MODULE", "DRIVER", "PROGRAM", "GET_VALUE","START", "END","ARRAY","INTEGER", "REAL","BOOLEAN","OF"};
 
-// non-terminal string
+// Keywords
 char* keyword_values[] = {"while", "default", "break", "case", "switch","in", "AND", "OR", "for", "true", "false", "return", "takes", "input", "print", "use", "with", "parameters", "declare", "module", "driver", "program","get_value", "start", "end", "array", "integer", "real", "boolean","of"};
 typedef char* buffer;
 
