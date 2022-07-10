@@ -12,7 +12,7 @@ This phase takes the stream of tokens and produces a abstract syntax tree. This 
 ### Type - Checking :
 This phase takes the abstract syntax tree and generates a symbol table. It primarily performs the semantic analysis along with type checking. This phase is implemented in **symboltable.c** module.
 ### Code Generation :
-This phase takes syntax tree & symbol table, generates the assembly code in .asm file. This phase is implemented in **codegeneration.c** module.
+This phase takes syntax tree & symbol table, generates the assembly code in .asm file. This phase is implemented in **codegenerator.c** module.
 
 ## Input : 
 The compiler can take input in the text format (.txt files).
