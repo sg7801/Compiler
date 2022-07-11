@@ -1,4 +1,5 @@
 # Language Specifications :
+The language contains 94 Grammar rules which are constructued from 51 non-terminal (including "$") and 58 Terminal characters.
 
 ## Lexical Structure :
 
