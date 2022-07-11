@@ -42,21 +42,21 @@ The list of reserved key words used in the language are as follows:
 
 ### Comments : 
 - The comments in the language start with ** and end with **. 
-- Tokens are separated by using blank spaces, tabs or new line characters. 
+- Tokens are separated by using blank spaces or tabs or new line characters. 
 - Keywords and identifiers are separated by tokens or white spaces.
 
 ### Numerical Values :
 - Integer : Sequence of digits tokenised as NUM.
 - Floating Point Numbers : Sequence of digits followed by decimal point. The datatype is real & tokenised as RNUM. They are represented in the exponent and mantissa form. Notation of exponent can be in uppercase or lowercase with/without signs. They cannot start with decimal,hence .12E2 would be invalid.
 
-## Operators :
+### Operators :
 - Arithmetic operators are +, -, /, * with their conventional meanings respectively. 
 - Relational operators are <, >, <=, >=, ==, != have their conventional meaning respectively.
 - Logical Operators are AND and OR in uppercase. They have their conventional meaning respectively.
 - Assignment Operator := is tokenised as ASSIGNOP.
 - Special Characters like .. represent the range operator that represents the range of an array. Example : arr[1..3]
 
-## Symbols: 
+### Symbols: 
 -	AND
 - OR
 -	NOT
